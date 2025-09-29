@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3a85b3;
+    
+}
+main{
+    background-color: #bad4e4;
+    margin: auto;
+    width: 77%;
+    
+}
+aside{
+    overflow: hidden;
+    
+}
+img{
+    width: 347px;
+    
+    border-radius: 10px 10px 0 0 ;
+    margin: 50px auto auto auto;
+    display: flex;
+}
+div#areafan{
+    border-radius: 4px;
+    background-color: white;
+    width: 334px;
+    margin: auto;
+    padding: 15px 8px 25px 8px;
+}
+input#buttonLike{
+    overflow: hidden;
+    background-color: rgba(253, 229, 229, 0.862);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 5px 8px 5px 8px ;
+    margin-bottom: 7px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input#buttonComment{
+
+}
