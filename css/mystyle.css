@@ -17,38 +17,41 @@ main{
     
 }
 main > h1{
+    border-radius: 2px;
     background-color:#394f5d ;
     text-align: center;
     font:normal italic 5em Designer,Calibri,Arial ;
     color: white;
-    width: 400px;
+    width: 399px;
     
     padding-bottom: 3px;
     margin: auto;
 }
 
 div#music{
-    border-radius: 4px;
+    border-radius: 2px;
     background-color: white;
-    width: 387px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
+    width: 382px;
     margin: auto;
     padding: 15px 8px 25px 8px;
     text-align: center;
-    font:normal 18px Arial, Helvetica, sans-serif;
+    font: normal italic 19px Arial, Helvetica, sans-serif;
 }
 
 audio{
-    margin-top: 10px;
+    margin-top: 18px;
 }
 img#foryou{
-    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
     margin: auto;
     display: flex;
 }
 div#areafan{
-    border-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
+    border-radius: 2px;
     background-color: white;
-    width: 387px;
+    width: 382px;;
     margin: auto;
     padding: 15px 8px 25px 8px;
 }
@@ -57,13 +60,13 @@ div#areafan > p {
 }
 input#buttonLike{
     overflow: hidden;
-    background-color: rgba(251, 179, 179, 0.928);
-    border: 1px solid rgba(0, 0, 0, 0.499);
+    background-color: rgba(250, 166, 166, 0.928);
+    border: 1px solid rgba(0, 0, 0, 0.222);
     border-radius: 7px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.119);
     cursor: pointer;
     padding: 5px 10px 5px 10px ;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     margin-right: 50px;
     font:normal 19px Calibri,Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.106);
@@ -74,17 +77,47 @@ input#buttonLike:hover{
     padding: 6px 10px 6px 11px ;
 }
 input#buttonLike:active{
-    background-color: rgba(246, 180, 180, 0.862);
+    background-color: rgba(235, 70, 70, 0.862);
     font:normal 18px Arial, Helvetica, sans-serif;
 }
 input[type=text]{
-    height: 30px;
+    font: normal 1.2em Arial;
+    border: 1px solid rgba(0, 0, 0, 0.442);
+    border-radius: 5px;
+    width: 190px;
+    height: 35px;
+    overflow: hidden;
 }
 input#buttonComment{
-    border-radius: 7px;
-    border: 1px solid black;
-    padding: 5px 10px 5px 10px ;
-    font:normal 19px Arial, Helvetica, sans-serif;
+    background-color: #bfd3e0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.332);
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.173);
+    padding: 4px 8px 4px 8px ;
+    font:normal 19px calibri,Arial, Helvetica, sans-serif;
     margin-left: 20px;
     overflow: hidden;
+    transition: .1s;
+}
+input#buttonComment:hover{
+    
+    padding: 5px 9px 5px 9px ;
+}
+input#buttonComment:active{
+    background-color: #9aacb8;
+    font:normal 18px Arial, Helvetica, sans-serif;
+}
+div#areaComment{
+    margin-top: 16px;
+}
+select#spaceComment{
+    width: 350px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    font-size: 1.1em;
 }
