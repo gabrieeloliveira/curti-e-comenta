@@ -17,25 +17,30 @@ main{
     
 }
 main > h1{
+    background-color:#394f5d ;
     text-align: center;
-    font-family: Designer ;
+    font:normal italic 5em Designer,Calibri,Arial ;
     color: white;
+    width: 400px;
+    
+    padding-bottom: 3px;
+    margin: auto;
 }
 
 div#music{
     border-radius: 4px;
     background-color: white;
-    width: 334px;
+    width: 387px;
     margin: auto;
     padding: 15px 8px 25px 8px;
     text-align: center;
-    
+    font:normal 18px Arial, Helvetica, sans-serif;
 }
+
 audio{
     margin-top: 10px;
 }
 img#foryou{
-    width: 347px;
     
     margin: auto;
     display: flex;
@@ -43,22 +48,26 @@ img#foryou{
 div#areafan{
     border-radius: 4px;
     background-color: white;
-    width: 334px;
+    width: 387px;
     margin: auto;
     padding: 15px 8px 25px 8px;
 }
+div#areafan > p {
+    font:normal 14px Arial, Helvetica, sans-serif;
+}
 input#buttonLike{
     overflow: hidden;
-    background-color: rgba(253, 229, 229, 0.862);
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    background-color: rgba(251, 179, 179, 0.928);
+    border: 1px solid rgba(0, 0, 0, 0.499);
     border-radius: 7px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.222);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.119);
     cursor: pointer;
     padding: 5px 10px 5px 10px ;
     margin-bottom: 12px;
     margin-right: 50px;
-    font:normal 19px Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.225);
+    font:normal 19px Calibri,Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.106);
+    transition: .1s;
     
 }
 input#buttonLike:hover{
@@ -72,5 +81,10 @@ input[type=text]{
     height: 30px;
 }
 input#buttonComment{
+    border-radius: 7px;
+    border: 1px solid black;
+    padding: 5px 10px 5px 10px ;
+    font:normal 19px Arial, Helvetica, sans-serif;
     margin-left: 20px;
+    overflow: hidden;
 }
