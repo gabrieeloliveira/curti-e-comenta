@@ -14,19 +14,24 @@ main{
     background-color: #bad4e4;
     margin: auto;
     width: 77%;
+    max-width:1900px ;
+    min-width: 450px;
     
     
 }
 main > h1{
-    border-radius: 2px;
-    background-color:#394f5d ;
+    border-radius: 12px;
+    /* Faixa central mais larga */
+    background-image: linear-gradient(to right, transparent 0%, #394f5d 25%, #394f5d 75%, transparent 100%);
     text-align: center;
     font:normal italic 5em Designer,Calibri,Arial ;
     color: white;
     width: 667px;
-    
-    padding-bottom: 3px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     margin: auto;
+    max-width: 100%;
+    min-width: 450px;
 }
 
 div#music{
@@ -35,13 +40,22 @@ div#music{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
     width: 651px;
     margin: auto;
+    
+    max-width: 100%;
+    
     padding: 15px 8px 25px 8px;
     text-align: center;
     font: normal italic 1.5em Arial, Helvetica, sans-serif;
 }
-
+article{
+    
+}
 audio{
     margin-top: 18px;
+    
+}
+div#espacoImg{
+    overflow: hidden;
     
 }
 div#containerImg{
@@ -62,13 +76,15 @@ div#areafan{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
     border-radius: 2px;
     background-color: white;
-    width: 652px;;
     margin: auto;
     padding: 15px 8px 25px 8px;
+    max-width: 653px;
+    min-width: 150px;
 }
 div#areafan > p {
     font:normal 14px Arial, Helvetica, sans-serif;
     margin-left: 25px;
+    
 }
 input#buttonLike{
     overflow: hidden;
@@ -112,7 +128,7 @@ input#buttonComment{
     font:normal 19px calibri,Arial, Helvetica, sans-serif;
     margin-left: 20px;
     overflow: hidden;
-    transition: .1s;
+    transition: .2s;
 }
 input#buttonComment:hover{
     
@@ -125,17 +141,42 @@ input#buttonComment:active{
 div#areaComment{
     margin-top: 16px;
     margin-left: 25px;
+    min-width: 450px;
+    max-width: 100%;
+}
+div#comment{
+    max-width: 100%;
+    min-width: 450px;
+
 }
 select#spaceComment{
-    width: 450px;
     border-radius: 2px;
     margin-top: 20px;
     margin-left: 25px;
+    max-width: 100%;
+    min-width: 80%;
+    
 }
-a{
+main > a{
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-a:hover{
+main > a:hover{
     font-size: 1.1em;
+}
+footer{
+    box-shadow: 1px -1px 5px rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.518);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font: normal italic 1em Arial,sans-serif;
+    
+}
+footer > a{
+    text-decoration: none;
+    color: rgb(239, 228, 159);
+}
+footer > a:hover {
+    font-size: .9em;
 }
