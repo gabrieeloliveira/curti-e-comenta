@@ -15,6 +15,7 @@ main{
     margin: auto;
     width: 77%;
     
+    
 }
 main > h1{
     border-radius: 2px;
@@ -22,7 +23,7 @@ main > h1{
     text-align: center;
     font:normal italic 5em Designer,Calibri,Arial ;
     color: white;
-    width: 399px;
+    width: 667px;
     
     padding-bottom: 3px;
     margin: auto;
@@ -32,31 +33,42 @@ div#music{
     border-radius: 2px;
     background-color: white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
-    width: 382px;
+    width: 651px;
     margin: auto;
     padding: 15px 8px 25px 8px;
     text-align: center;
-    font: normal italic 19px Arial, Helvetica, sans-serif;
+    font: normal italic 1.5em Arial, Helvetica, sans-serif;
 }
 
 audio{
     margin-top: 18px;
+    padding: ;
+}
+div#containerImg{
+    width: 665px;
+    max-width: 100%;
 }
 img#foryou{
+    border-radius: 1px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
     margin: auto;
     display: flex;
+    max-width: 100%;
+    min-width: 320px;
+    height: auto;
+    
 }
 div#areafan{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.378) ;
     border-radius: 2px;
     background-color: white;
-    width: 382px;;
+    width: 652px;;
     margin: auto;
     padding: 15px 8px 25px 8px;
 }
 div#areafan > p {
     font:normal 14px Arial, Helvetica, sans-serif;
+    margin-left: 25px;
 }
 input#buttonLike{
     overflow: hidden;
@@ -66,9 +78,11 @@ input#buttonLike{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.119);
     cursor: pointer;
     padding: 5px 10px 5px 10px ;
-    margin-bottom: 18px;
+    margin-top: 15px;
+    margin-bottom: 22px;
     margin-right: 50px;
-    font:normal 19px Calibri,Arial, Helvetica, sans-serif;
+    margin-left: 25px;
+    font:normal 2em Calibri,Arial, Helvetica, sans-serif;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.106);
     transition: .1s;
     
@@ -78,7 +92,7 @@ input#buttonLike:hover{
 }
 input#buttonLike:active{
     background-color: rgba(235, 70, 70, 0.862);
-    font:normal 18px Arial, Helvetica, sans-serif;
+    font:normal 1.8em Arial, Helvetica, sans-serif;
 }
 input[type=text]{
     font: normal 1.2em Arial;
@@ -87,6 +101,7 @@ input[type=text]{
     width: 190px;
     height: 35px;
     overflow: hidden;
+    padding-left: 15px;
 }
 input#buttonComment{
     background-color: #bfd3e0;
@@ -109,10 +124,13 @@ input#buttonComment:active{
 }
 div#areaComment{
     margin-top: 16px;
+    margin-left: 25px;
 }
 select#spaceComment{
-    width: 350px;
+    width: 450px;
+    border-radius: 2px;
     margin-top: 20px;
+    margin-left: 25px;
 }
 a{
     text-decoration: none;
